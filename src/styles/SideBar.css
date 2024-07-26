@@ -1,0 +1,29 @@
+.side-bar {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .side-bar h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .side-bar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 50px;
+  }
+  
+  .side-bar ul li {
+    margin-bottom: 5px;
+  }
+  
+  .side-bar ul li a {
+    text-decoration: none;
+    color: #333; 
+  }
+  

@@ -1,0 +1,51 @@
+/* Conditioning.css */
+
+.mechanics-container {
+    padding: 20px; /* Adds padding around the content */
+    max-width: 1200px; /* Adjusts the maximum width of the content */
+    margin: 0 auto; /* Centers the content horizontally */
+  }
+  
+  .heading-container {
+    margin-bottom: 20px; /* Adds space below the heading */
+  }
+  
+  .text-container {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  
+  .list-container {
+    list-style-type: disc; /* Adds bullet points */
+    margin-top: 20px; /* Adds space above the list */
+    padding-left: 20px; /* Adds space on the left side for the bullets */
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .list-container li {
+    margin-bottom: 10px; /* Adds space between list items */
+  }
+  
+  body, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .heading-container h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .text-container p {
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+  }
+  
+  h3 {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  

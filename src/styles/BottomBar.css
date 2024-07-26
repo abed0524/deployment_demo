@@ -1,0 +1,124 @@
+/* Bottom Bar */
+.bottom-bar {
+  width: 100%;
+  height: 379px;
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end; /* Move the other sections to the right */
+  align-items: center;
+  position: relative; /* Ensure child elements can be absolutely positioned */
+  margin-top: -10px;
+}
+
+/* Copyright Section */
+.bottom-bar .copyright {
+  position: absolute; /* Position it absolutely within the BottomBar */
+  bottom: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  font-size: 13px; /* Adjust size as needed */
+  color: white;
+  white-space: nowrap; /* Prevent line breaks */
+  text-overflow: ellipsis; /* Display an ellipsis if the text is too long */
+}
+
+/* Bottom Bar Sections */
+.bottom-bar-section {
+  display: flex;
+  gap: 30px; /* Add space between sections */
+  align-items: center;
+  flex: 1; /* Ensure the sections take up the available space */
+  text-align: right; /* Align text to the right */
+}
+
+.bottom-bar-section > :first-child {
+  font-size: 14px;
+  color: red;
+  margin-bottom: 8px;
+}
+
+.bottom-bar-section .contact-info,
+.bottom-bar-section .page-links {
+  margin: 0; /* Remove margin if not needed */
+  padding: 10px; /* Add padding as needed */
+  max-width: 230px; /* Adjust the maximum width as needed */
+}
+
+.bottom-bar-section ul {
+  list-style: none;
+  padding: 10px;
+  text-align: right; /* Adjust text alignment */
+}
+
+.bottom-bar-section ul li {
+  margin-bottom: 5px;
+  white-space: nowrap; /* Prevent line breaks */
+  width: auto;
+  direction: rtl;
+  text-align: right;
+}
+
+.bottom-bar-section li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.bottom-bar-section .pages {
+  color: red;
+}
+
+.bottom-bar-section .contact {
+  color: red;
+}
+
+.bottom-bar li {
+  color: white;
+}
+
+
+.bottom-bar-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.bottom-bar-section img {
+  width: 100px;
+  height: auto;
+  display: block; /* Ensure the image is displayed as a block element */
+  max-width: 250%; /* Make sure the image doesn't exceed its container */
+  padding: 0 10px;
+  margin-top: -90px;
+}
+
+.contact-button {
+  background: none;
+  border: none;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contact-button:hover {
+  opacity: 0.8;
+}
+
+/* BottomBar.css */
+
+/* Style for location button */
+.location-button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: inherit;
+  padding: 0;
+}
+
+.bottom-bar-section .contact-info .contact {
+  
+}
+

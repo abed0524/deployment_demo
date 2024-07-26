@@ -1,0 +1,48 @@
+/* src/styles/AccessibilityButton.css */
+.accessibility-button-container {
+    position: fixed;
+    bottom: 400px;
+    left: -5px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .handicap-button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .accessibility-options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .accessibility-options button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .high-contrast * {
+    background-color: black !important;
+    color: yellow !important;
+  }
+  
+  .large-text * {
+    font-size: 1.1em !important;
+  }
+  

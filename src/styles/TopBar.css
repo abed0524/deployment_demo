@@ -1,0 +1,55 @@
+/* Top Bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    background-color: black;
+    height: 90px;
+  }
+  
+  .left-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .left-buttons button {
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 20px 20px 20px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .left-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    max-height: 43px; /* Adjust height as needed */
+    cursor: pointer; /* Make the logo image clickable */
+  }
+  
+  .sentence {
+    font-size: 18px;
+    color: white;
+    text-align: right;
+  }
+  
+  .roadSafety {
+    max-height: 60px; /* Adjust height as needed */
+    margin-left: 50px;
+    width: 60px;
+  }
+  
