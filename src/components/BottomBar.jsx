@@ -67,9 +67,6 @@ const BottomBar = () => {
           <li>
             <Link to="/mechanics">מכונאות</Link>
           </li>
-          <li>
-            <Link to="/regulation">תקנון</Link>
-          </li>
         </ul>
       </div>
       <p className="copyright">© כל הזכויות שמורות 2024</p>
