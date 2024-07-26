@@ -7,12 +7,12 @@ const SideBar = () => {
       {/* Sidebar content here */}
       <h2>תפריט</h2>
       <ul>
-        <li><a href="/">ראשי</a></li>
-        <li><a href="/electricity-and-diagnosis">חשמל ואבחון</a></li>
-        <li><a href="/conditioning">מיזוג</a></li>
-        <li><a href="/mechanics">מכונאות</a></li>
-        <li><a href="/lab">מעבדה</a></li>
-        <li><a href="/hybrids">רכבי הייברד (מערכת כיול רדאר)</a></li>
+        <li><Link to="/">ראשי</Link></li>
+        <li><Link to="/electricity-and-diagnosis">חשמל ואבחון</Link></li>
+        <li><Link to="/conditioning">מיזוג</Link></li>
+        <li><Link to="/mechanics">מכונאות</Link></li>
+        <li><Link to="/lab">מעבדה</Link></li>
+        <li><Link to="/hybrids">רכבי הייברד (מערכת כיול רדאר)</Link></li>
         {/* Add more links or content as needed */}
       </ul>
     </div>
