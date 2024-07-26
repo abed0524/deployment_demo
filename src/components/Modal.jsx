@@ -69,7 +69,7 @@ const Modal = ({ isOpen, onClose }) => {
     const encodedMessage = encodeURIComponent(message);
 
     // WhatsApp URL
-    const phoneNumber = '972587730731'; // The phone number
+    const phoneNumber = '972525399761'; // The phone number
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
     // Open WhatsApp with the message
