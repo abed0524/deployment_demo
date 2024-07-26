@@ -109,19 +109,19 @@ const Home = () => {
         </div>
         <ul className="menu-list">
     <li>
-      <button className="menu-button" onClick={() => window.location.href='/electricity-and-diagnosis'}>חשמל ואבחון</button>
+      <Link to="/electricity-and-diagnosis"><button className="menu-button">חשמל ואבחון</button></Link>
     </li>
     <li>
-      <button className="menu-button" onClick={() => window.location.href='/conditioning'}>מיזוג</button>
+      <Link to="/conditioning"><button className="menu-button">מיזוג</button></Link>
     </li>
     <li>
-      <button className="menu-button" onClick={() => window.location.href='/mechanics'}>מכונאות</button>
+      <Link to="/mechanics"><button className="menu-button">מכונאות</button></Link>
     </li>
     <li>
-      <button className="menu-button" onClick={() => window.location.href='/lab'}>מעבדה</button>
+      <Link to="/lab"><button className="menu-button">מעבדה</button></Link>
     </li>
     <li>
-      <button className="menu-button" onClick={() => window.location.href='/hybrids'}>רכבי היבריד (מערכת כיול רדאר)</button>
+      <Link to="/hybrids"><button className="menu-button">רכבי היבריד (מערכת כיול רדאר)</button></Link>
     </li>
   </ul>
       </div>
